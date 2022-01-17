@@ -1,0 +1,121 @@
+/* Top-left logo */
+
+.logo {
+    width: 85px;
+}
+
+/* Home page */
+
+.img_principale {
+    background-image: url("img_principale.png");
+    max-width: 100% !important;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.home_h1{
+    color: white;
+    font-size: 60pt;
+}
+
+.home_button {
+    background-color: #3e507f;
+    border-color: #1d263c;
+    font-size: 15pt;
+}
+
+.home_button:hover {
+    background-color: #9b96a5;
+    border-color: #343a40;
+}
+
+.card img {	
+	width: 100%;
+	height: 100%;
+}
+
+/* Social icons */
+
+.icons1,.icons2,.icons3 {
+    font-size: 19pt;
+}
+
+.icons1:hover {
+    color:#3b5998 !important;
+}
+
+.icons2:hover {
+    color: #EE1D52 !important;
+}
+
+.icons3:hover {
+    color: #FA7E1E !important;
+}
+
+/* Footer contacts */
+
+.footer-li {
+    list-style-type: none;
+}
+
+/* Corsi page */
+
+.età {
+    font-size: 10pt !important;
+}
+
+a {
+	color: #096db3;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 16px 8px;
+  text-align: center;  
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #096db3;
+  color: white;
+}
+
+/* News1, News2, News3, News4, News5, News6 pages */
+
+.img_news {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.news_button {
+    background-color: #3e507f;
+    border-color: #1d263c;
+}
+
+.news_button:hover {
+    background-color: #9b96a5;
+    border-color: #343a40;
+}
+
+/* Contatti page */
+
+.icons_contatti {
+	font-size: 22pt;
+}
